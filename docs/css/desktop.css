@@ -35,11 +35,12 @@ header {
 }
 
 .navegador {
-    width: 60%;
+    width: 80%;
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-end;
     flex-wrap: wrap;
+    margin-right: 5%;
 }
 .navegador ul{
     display: flex;  
@@ -48,9 +49,14 @@ header {
     list-style: none;
     margin: 10px;
 }
-.navegador ul li a{
+.navegador ul li a {
     text-decoration: none;
+    color: black;
+    padding: 5px 15px;
 }
+
+
+
 /* Modificaciones para los iconos 🎊 */
 .social-icons {
     width: 20%;
@@ -80,4 +86,36 @@ header {
 #hero {
   width: 100%;
   height: 92vh;;
+}
+
+
+/* ANIMACIONES 🎊🎊🎊 */
+
+.underline-link {
+  position: relative;
+  color: #000; /* Color del texto */
+  text-decoration: none;
+}
+
+.underline-link::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0; /* Distancia debajo del texto */
+  width: 0%;
+  height: 30px;
+  background-color: #3498db4c; /* Color de la línea */
+  transition: width 0.3s ease-in-out;
+}
+
+.underline-link:hover::after {
+  width: 100%;
+  
+}
+
+/* 👇 Línea visible si está activa */
+.underline-link.active::after {
+  width: 100%;
+  left: 0;
+  right: auto;
 }
