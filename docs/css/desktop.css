@@ -104,10 +104,23 @@ header {
   position: absolute;
   top: 35%;
 }
-#title-h2 {
-  font-size: 8rem;
+#cambiador {
+  font-size: 6rem;
   position: absolute;
   top: 22%;
+  display: inline-block;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  opacity: 1;
+  transform: scale(1);
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #000000; /* Simula un cursor */
+  padding-right: 10px;
+  
+}
+.hidden {
+  opacity: 0;
+  transform: scale(0.9); /* Hace que parezca que se contrae al salir */
 }
 
 
