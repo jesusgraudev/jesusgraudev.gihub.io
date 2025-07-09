@@ -14,7 +14,7 @@
 }
 
 body {
-  background-image: url('../docs/assets/img/fondogeneral.jpg');
+  background-image: url('./docs/assets/img/fondogeneral.jpg');
   background-repeat: no-repeat;          /* Evita que se repita */
   background-size: cover;                /* Cubre todo el contenedor */
   background-position: center center;   /* Centra la imagen */
