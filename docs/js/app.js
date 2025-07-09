@@ -1,8 +1,9 @@
 const textos = [
-    "Hola, soy Jesús Grau",
-    "Soy desarrollador web",
-    "Diseño interfaces limpias",
-    "Estoy creando mi portafolio"
+    "Soy Jesús Grau.",
+    "Un desarrollador web.",
+    "Diseño interfaces limpias.",
+    "Estoy creando mi portafolio.",
+    "Estudiante de Platzi Academy"
   ];
 
   let indexTexto = 0;
