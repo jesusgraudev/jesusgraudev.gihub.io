@@ -15,12 +15,12 @@
 
 body {
   background-image: url('../assets/img/fondogeneral.jpg');
-  background-repeat: no-repeat;          /* Evita que se repita */
-  background-size: cover;                /* Cubre todo el contenedor */
-  background-position: center center;   /* Centra la imagen */
-  background-attachment: fixed;          /* Fija el fondo al hacer scroll */
-  margin: 0;                            /* Quita márgenes para que ocupe toda la pantalla */
-  height: 100vh;                       /* Asegura que body ocupe toda la altura */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
 }
 
 
